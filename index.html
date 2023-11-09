@@ -11,13 +11,42 @@
       <figure>
         <img src="./img-til-opgave/Nike-logo-clean.png" alt="Nike logo" />
       </figure>
-      <nav>
-        <div class="mobilemenu">
-          <label for="mobilemenuindex"
-            ><img src="./img-til-opgave/bars-solid.svg" alt=""
-          /></label>
-          <input type="checkbox" name="hamburgermenu" id="mobilemenuindex" />
-        </div>
+
+      <nav class="mobile">
+        <input class="checkbox" type="checkbox" name="checkbox" id="checkbox" />
+        <label for="checkbox">
+          <img
+            class="open"
+            src="./img-til-opgave/bars-solid.svg"
+            alt="hamburger menu button"
+          />
+
+          <img
+            class="close"
+            src="./img-til-opgave/times-solid.svg"
+            alt="hamburger menu close"
+          />
+        </label>
+        <ul>
+          <li>
+            <a href="./index.html">FORSIDE</a>
+          </li>
+
+          <li>
+            <a href="./history.html">HISTORIEN OM NIKE</a>
+          </li>
+
+          <li>
+            <a href="./about.html">OM NIKE PRO SHOP</a>
+          </li>
+
+          <li>
+            <a href="./contact.html">KONTAKT OS</a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="desktop">
         <a href="./index.html" target="_blank" rel="noopener noreferrer"
           >FORSIDE</a
         >
@@ -46,12 +75,9 @@
       </p>
       <p>
         Fra løbesko til fodboldstøvler, over golfbolde og til snowboardtøj
-        dækker de efterhånden hele paletten.
-      </p>
-      <p>
-        Her hos Nike Pro Shop fokuserer vi selvfølgelig på Nike sko og sneakers,
-        men vi forsøger også at snige lidt apparel ind i udvalget, når vi finder
-        gode basic styles.
+        dækker de efterhånden hele paletten.Her hos Nike Pro Shop fokuserer vi
+        selvfølgelig på Nike sko og sneakers, men vi forsøger også at snige lidt
+        apparel ind i udvalget, når vi finder gode basic styles.
       </p>
       <p>
         I det hele taget gør vi alt hvad vi kan for at holde vores udvalg
@@ -64,77 +90,79 @@
 
       <!-- Shoe links -->
 
-      <div class="shoes">
-        <a href="#" target="_blank" rel="noopener noreferrer"
-          ><img
-            src="./img-til-opgave/Nike-aqua-thumb.jpg"
-            alt="Blue Nikes"
-          />Nike Aqua</a
-        >
-      </div>
-      <div class="shoes">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          <img
-            src="./img-til-opgave/Nike-aquamarine-thumb.jpg"
-            alt="Dark Blue Nikes"
-          />Nike Aquamarine
-        </a>
-      </div>
-      <div class="shoes">
-        <a href="#" target="_blank" rel="noopener noreferrer"
-          ><img
-            src="./img-til-opgave/Nike-bauhaus-thumb.jpg"
-            alt="Nike Bauhaus"
-          />Nike Bauhaus</a
-        >
-      </div>
-      <div class="shoes">
-        <a href="#" target="_blank" rel="noopener noreferrer"
-          ><img
-            src="./img-til-opgave/Nike-blackwhite-thumb.jpg"
-            alt="Black and white nikes"
-          />Nike Black/white</a
-        >
-      </div>
-      <div class="shoes">
-        <a href="#" target="_blank" rel="noopener noreferrer"
-          ><img
-            src="./img-til-opgave/Nike-greenyellow-thumb.jpg"
-            alt="Green and yellow Nikes"
-          />Nike Green/Yellow</a
-        >
-      </div>
-      <div class="shoes">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          <img
-            src="./img-til-opgave/Nike-orange-thumb.jpg"
-            alt="Orange nikes"
-          />Nike Orange</a
-        >
-      </div>
-      <div class="shoes">
-        <a href="#" target="_blank" rel="noopener noreferrer"
-          ><img
-            src="./img-til-opgave/Nike-pastel-thumb.jpg"
-            alt="Pastel colored nikes"
-          />Nike Pastel</a
-        >
-      </div>
-      <div class="shoes">
-        <a href="#" target="_blank" rel="noopener noreferrer"
-          ><img
-            src="./img-til-opgave/Nike-rainbow-thumb.jpg"
-            alt="Rainbow nikes"
-          />Nike Rainbow</a
-        >
-      </div>
-      <div class="shoes">
-        <a href="#" target="_blank" rel="noopener noreferrer"
-          ><img
-            src="./img-til-opgave/Nike-whitered-thumb.jpg"
-            alt="White and red nikes"
-          />Nike White/Red</a
-        >
+      <div class="grid">
+        <div class="shoes">
+          <a href="#" target="_blank" rel="noopener noreferrer"
+            ><img
+              src="./img-til-opgave/Nike-aqua-thumb.jpg"
+              alt="Blue Nikes"
+            />Nike Aqua</a
+          >
+        </div>
+        <div class="shoes">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img
+              src="./img-til-opgave/Nike-aquamarine-thumb.jpg"
+              alt="Dark Blue Nikes"
+            />Nike Aquamarine
+          </a>
+        </div>
+        <div class="shoes">
+          <a href="#" target="_blank" rel="noopener noreferrer"
+            ><img
+              src="./img-til-opgave/Nike-bauhaus-thumb.jpg"
+              alt="Nike Bauhaus"
+            />Nike Bauhaus</a
+          >
+        </div>
+        <div class="shoes">
+          <a href="#" target="_blank" rel="noopener noreferrer"
+            ><img
+              src="./img-til-opgave/Nike-blackwhite-thumb.jpg"
+              alt="Black and white nikes"
+            />Nike Black/white</a
+          >
+        </div>
+        <div class="shoes">
+          <a href="#" target="_blank" rel="noopener noreferrer"
+            ><img
+              src="./img-til-opgave/Nike-greenyellow-thumb.jpg"
+              alt="Green and yellow Nikes"
+            />Nike Green/Yellow</a
+          >
+        </div>
+        <div class="shoes">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img
+              src="./img-til-opgave/Nike-orange-thumb.jpg"
+              alt="Orange nikes"
+            />Nike Orange</a
+          >
+        </div>
+        <div class="shoes">
+          <a href="#" target="_blank" rel="noopener noreferrer"
+            ><img
+              src="./img-til-opgave/Nike-pastel-thumb.jpg"
+              alt="Pastel colored nikes"
+            />Nike Pastel</a
+          >
+        </div>
+        <div class="shoes">
+          <a href="#" target="_blank" rel="noopener noreferrer"
+            ><img
+              src="./img-til-opgave/Nike-rainbow-thumb.jpg"
+              alt="Rainbow nikes"
+            />Nike Rainbow</a
+          >
+        </div>
+        <div class="shoes">
+          <a href="#" target="_blank" rel="noopener noreferrer"
+            ><img
+              src="./img-til-opgave/Nike-whitered-thumb.jpg"
+              alt="White and red nikes"
+            />Nike White/Red</a
+          >
+        </div>
       </div>
     </main>
     <footer>
