@@ -315,7 +315,7 @@ footer h6 {
   }
 
   .history-middle img {
-    width: 190%;
+    width: 30vw;
     margin: 0;
     margin-top: 2%;
     padding-right: 0;
@@ -336,7 +336,7 @@ footer h6 {
   /* About specific desktop styling */
 
   .aboutmain img {
-    width: 220%;
+    width: 25vw;
     padding-right: 0;
   }
 
@@ -372,7 +372,7 @@ footer h6 {
   .aboutmain .oppositesect img {
     padding-left: 0;
     padding-right: 15%;
-    width: 240%;
+    width: 30vw;
   }
 
   .aboutmain .topmargin {
